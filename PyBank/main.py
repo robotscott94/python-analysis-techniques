@@ -26,7 +26,7 @@ rowcount = len(values)
 
 # Calculate net profit
 netprofit = 0
-for i in range(1, len(values)):
+for i in range(len(values)):
     netprofit += values[i]
 
 
